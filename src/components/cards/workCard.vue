@@ -1,10 +1,7 @@
 <template>
   <div class="card mb-3" style="width: 19.5rem">
     <div class="text-center mt-4">
-      <img
-        class="rounded-circle"
-        :src="require(`@/assets/Images/workspace/${imgUrl}.png`)"
-      />
+      <img class="" :src="require(`@/assets/Images/workspace/${imgUrl}.png`)" />
       <h6 class="card-title mt-3 mb-0">{{ title }}</h6>
     </div>
     <!-- <div class="testimony-card p-4 text-black">
@@ -81,7 +78,7 @@ hr {
 }
 
 img {
-  // object-fit: cover;
+  object-fit: fill;
   width: 60px;
   height: 60px;
 }

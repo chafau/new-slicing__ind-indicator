@@ -32,61 +32,34 @@ export default {
           accCurrVal: 1,
           accMaxVal: 21,
           assCurrVal: 21,
-          assMaxVal: 21
+          assMaxVal: 21,
         },
         {
-          id: 1,
+          id: 2,
           image: "netflix",
-          title: "Google Company",
+          title: "Netflix",
           accCurrVal: 1,
           accMaxVal: 21,
           assCurrVal: 21,
-          assMaxVal: 21
+          assMaxVal: 21,
         },
         {
-          id: 1,
-          image: "google",
-          title: "Google Company",
+          id: 3,
+          image: "gojek",
+          title: "Gojek",
           accCurrVal: 1,
           accMaxVal: 21,
           assCurrVal: 21,
-          assMaxVal: 21
+          assMaxVal: 21,
         },
         {
-          id: 1,
-          image: "google",
-          title: "Google Company",
+          id: 4,
+          image: "paypal",
+          title: "Paypal",
           accCurrVal: 1,
           accMaxVal: 21,
           assCurrVal: 21,
-          assMaxVal: 21
-        },
-        {
-          id: 1,
-          image: "google",
-          title: "Google Company",
-          accCurrVal: 1,
-          accMaxVal: 21,
-          assCurrVal: 21,
-          assMaxVal: 21
-        },
-        {
-          id: 1,
-          image: "google",
-          title: "Google Company",
-          accCurrVal: 1,
-          accMaxVal: 21,
-          assCurrVal: 21,
-          assMaxVal: 21
-        },
-        {
-          id: 1,
-          image: "google",
-          title: "Google Company",
-          accCurrVal: 1,
-          accMaxVal: 21,
-          assCurrVal: 21,
-          assMaxVal: 21
+          assMaxVal: 21,
         },
       ],
     };
