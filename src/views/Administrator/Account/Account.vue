@@ -55,16 +55,22 @@
                 <tr>
                   <td>
                     <label class="customcheckbox">
-                      <input type="checkbox" class="checkbox"/>
+                      <input type="checkbox" class="checkbox" />
                       <div class="control__indicator"></div>
                     </label>
+                    <img
+                      src="@/assets/Images/profile/BayunaRama.png"
+                      class="rounded-circle mx-3"
+                      style="width: 40px"
+                      alt="Avatar"
+                    />
                     adminRahasia123
                   </td>
                   <td>089672832132</td>
                   <td>ebdesk@gmail.com</td>
                   <td>Test123@</td>
                   <td>
-                    <span>Active</span>
+                    <span class="active text-white px-2 py-2">Active</span>
                   </td>
                   <td>
                     <button type="button" class="btn btn-light">
@@ -214,7 +220,17 @@ td {
   box-shadow: none;
 }
 
-.checkbox:hover {
-    display: none !important;
+.customcheckbox {
+  .checkbox {
+    accent-color: red;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle !important;
+  }
+}
+
+.active {
+    background: #13C57C;
+    border-radius: 30px;
 }
 </style>
