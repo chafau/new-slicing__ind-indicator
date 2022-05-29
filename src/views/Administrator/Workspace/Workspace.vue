@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="app">
     <div class="row">
       <div class="col-md-3" v-for="item in WorkList" :key="item.id">
         <WorkCard
@@ -72,7 +72,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 hr {
   width: 90%;
   opacity: 0.1 !important;

@@ -4,6 +4,7 @@ import Workspace from '../views/Administrator/Workspace/Workspace.vue'
 import Account from '../views/Administrator/Account/Account.vue'
 import Layout from '../layout/Layouts.vue'
 import AdminLayout from '../views/Administrator/AdministratorLayouts.vue'
+import About from '../views/About.vue'
 
 const router = createRouter({
 	history: createWebHistory(),
@@ -17,6 +18,10 @@ const router = createRouter({
 					path: 'dashboard',
 					name: 'dashboard',
 					component: Dashboard
+				},
+				{
+					path: '/about',
+					component: About
 				},
 			]
 		},
